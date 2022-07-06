@@ -45,27 +45,29 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.6.1</version>
+            <version>1.7.13</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <scope>provided</scope>
-            <version>1.0.6</version>
+            <version>1.2.11</version>
         </dependency>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
             <scope>test</scope>
-            <version>4.8.2</version>
+            <version>5.8.2</version>
         </dependency>
     </dependencies>
 
     <properties>
-        <jackson-2-version>2.3.1</jackson-2-version>
+        <jackson-2-version>2.13.3</jackson-2-version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
         <mytime>${maven.build.timestamp}</mytime>
+
+        <maven.compiler.source>14</maven.compiler.source>
+        <maven.compiler.target>14</maven.compiler.target>
     </properties>
 
     <build>

@@ -1,6 +1,5 @@
 package com.erigir.oz;
 
-import org.junit.Test;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -9,7 +8,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * User: chrweiss
